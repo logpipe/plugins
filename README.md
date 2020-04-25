@@ -1,0 +1,2 @@
+# plugins
+plugins for logpipe
