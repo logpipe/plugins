@@ -9,7 +9,7 @@ import (
 import "github.com/logpipe/logpipe/core"
 
 func init() {
-	plugin.RegOutput(&FileOutputBuilder{})
+	plugin.RegisterOutputBuilder(&FileOutputBuilder{})
 }
 
 type FileOutput struct {

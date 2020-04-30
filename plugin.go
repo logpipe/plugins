@@ -1,4 +1,4 @@
-package plugins
+package main
 
 import _ "github.com/logpipe/plugins/input"
 import _ "github.com/logpipe/plugins/filter"

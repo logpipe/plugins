@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	plugin.RegInput(&FileInputBuilder{})
+	plugin.RegisterInputBuilder(&FileInputBuilder{})
 }
 
 type FileInput struct {

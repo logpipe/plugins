@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	plugin.RegCodec(&JSONCodecBuilder{})
+	plugin.RegisterCodecBuilder(&JSONCodecBuilder{})
 }
 
 type JSONCodec struct {

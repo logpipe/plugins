@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	plugin.RegOutput(&StdoutOutputBuilder{})
+	plugin.RegisterOutputBuilder(&StdoutOutputBuilder{})
 }
 
 type StdoutOutput struct {

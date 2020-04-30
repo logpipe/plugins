@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	plugin.RegInput(&StdinInputBuilder{})
+	plugin.RegisterInputBuilder(&StdinInputBuilder{})
 }
 
 type StdinInputSpec struct {

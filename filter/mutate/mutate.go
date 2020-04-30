@@ -13,7 +13,7 @@ func init() {
 
 	initOps()
 
-	plugin.RegFilter(&MutateFilterBuilder{})
+	plugin.RegisterFilterBuilder(&MutateFilterBuilder{})
 }
 
 type MutateFilter struct {
